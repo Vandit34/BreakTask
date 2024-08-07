@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.recharts-default-legend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-inline: 2rem;
+}
+
+.recharts-default-legend li {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+/* XXXX  Calender Component  XXXX */
+.custom-calendar {
+  border: none;
+}
+
+.react-calendar__tile--active {
+  background-color: #ff90bc !important;
+  color: #ffffff !important;
+}
+
+.react-calendar__tile:hover {
+  background-color: #ffc0d9 !important;
+}
+
+
+.selected-date {
+  color: #ff2788;
+  font-weight: bold;
+}
+
+/* XXXXXXXXXXXXXXXXXx */
+.large-checkbox {
+  width: 30px;
+  cursor: pointer;
+}
